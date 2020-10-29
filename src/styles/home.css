@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: #414141;
+}
+
+*:focus {
+    outline: none;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    color: #414141;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00C2FF;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+.nav{
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.nav-derecha {
+    display: flex;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+#ingresar {
+    border: 2px #00C2FF solid;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+/*HOME*/
+/*BUSCADOR*/
+h1 {
+    text-align: center;
+}
+
+.buscador{
+    position: relative;
+    width: 70%;
+    margin: 60px auto 0px auto;
+    height: 80vh;
+}
+
+.buscador-box{
+    margin-top: 20px;
+    background-color: #E5E5E5;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    height: 360px;
+}
+
+.buscador-box h3 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.buscador-categoria {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px #00C2FF solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #E5E5E5;
+    margin: 40px auto;
+}
+
+.buscador-select {
+    width: 92%;
+    padding: 12px;
+    margin: 30px auto;
+}
+
+.buscador-select select {
+    height: 55px;
+    border-radius: 20px 0 0 20px;
+    border-style: none;
+    width: 25%;
+    padding: 10px;
+}
+
+.buscador-select input {
+    height: 55px;
+    border-style: none;
+    width: 60%;
+    padding: 20px;
+}
+
+.buscador-select button {
+    height: 55px;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    background-color: #00C2FF;
+    border-style: none;
+    width: 15%;
+    padding: 10px;
+}
+
+.buscador-select button i  {
+    color: #fff;
+}
+
+.ver-mas{
+    text-align: center;
+    margin: 30px;
+}
+
+/*MAS INFO*/
+.info-adicional {
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+    height: 220px;
+}
+
+.col-4 i {
+    color: #00C2FF;
+}
+
+/*MAS BUSCADOS*/
+.mas-buscados{
+    text-align: center;
+    height: 400px;
+}
+
+.mas-buscados h4 {
+    border: 2px solid #00C2FF;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.buscados-row{
+    margin: 35px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    margin: 0 auto
+}
