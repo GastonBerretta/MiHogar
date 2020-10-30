@@ -30,15 +30,15 @@ export const HomePage = () => {
             </div>
             <div className="info-adicional row">
                 <div className="col-4">
-                    <i class="fas fa-home"></i>
+                    <i class="fas fa-home fa-2x"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quae rerum sint, expedita repellat, ducimus consequuntur omnis numquam</p>
                 </div>
                 <div className="col-4">
-                    <i class="fas fa-info"></i>
+                    <i class="fas fa-info fa-2x"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quae rerum sint, expedita repellat, ducimus consequuntur omnis numquam</p>
                 </div>
                 <div className="col-4">
-                    <i class="fab fa-safari"></i>
+                    <i class="fab fa-safari fa-2x"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quae rerum sint, expedita repellat, ducimus consequuntur omnis numquam</p>
                 </div>
             </div>
@@ -80,9 +80,9 @@ export const HomePage = () => {
                 </div>
             </div>
         <footer>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
+            <i class="redes-sociales fab fa-facebook fa-2x"></i>
+            <i class="redes-sociales fab fa-instagram fa-2x"></i>
+            <i class="redes-sociales fab fa-twitter fa-2x"></i>
             <p>Terminos y condiciones - Politica de privacidad - Politica de Cookies</p>
         </footer>
         </div>
