@@ -127,7 +127,10 @@ h1 {
     text-align: center;
     margin: 30px;
 }
-
+.buscador-btn{
+    border:none;
+    background-color: #E5E5E5;
+}
 /*MAS INFO*/
 .info-adicional {
     margin: 0 auto;
