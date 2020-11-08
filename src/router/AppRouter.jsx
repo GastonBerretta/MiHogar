@@ -5,6 +5,8 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import { Buscados } from '../Components/Buscados';
+import { Footer } from '../Components/Footer';
 import { NavBar } from '../Components/NavBar';
 import { BarrioPrivPage } from '../pages/BarrioPrivPage';
 import { CasaPage } from '../pages/CasaPage';
@@ -13,6 +15,7 @@ import { DepartamentoPage } from '../pages/DepartamentoPage';
 import { HomePage } from '../pages/HomePage';
 import { IngresarPage } from '../pages/IngresarPage';
 import { NosotrosPage } from '../pages/NosotrosPage';
+import { RegisterPage } from '../pages/RegisterPage';
 
 export const AppRouter = () => {
     return (
@@ -27,8 +30,11 @@ export const AppRouter = () => {
           <Route exact path="/como-buscar-mi-hogar" component={ComoBuscarHogarPage}/>
           <Route exact path="/nosotros" component={NosotrosPage}/>
           <Route exact path="/ingresar" component={IngresarPage}/>
+          <Route exact path="/register" component={RegisterPage}/>
           <Redirect to="/" />
-        </Switch>   
+        </Switch> 
+        <Buscados/>
+        <Footer/>  
       </div>
     </Router>
     )

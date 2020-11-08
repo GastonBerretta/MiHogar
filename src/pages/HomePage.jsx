@@ -42,49 +42,6 @@ export const HomePage = () => {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quae rerum sint, expedita repellat, ducimus consequuntur omnis numquam</p>
                 </div>
             </div>
-            <div className="mas-buscados">
-                <h4>Mas buscados</h4>
-                <div className="buscados-row row">
-                    <div className="col-3">
-                        <h5>Inmuebles populares</h5>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                    </div>
-                    <div className="col-3">
-                        <h5>En venta</h5>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                    </div>
-                    <div className="col-3">
-                        <h5>En alquiler</h5>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                    </div>
-                    <div className="col-3">
-                        <h5>Zonas populares</h5>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                        <p>Lorem, ipsum ravioli.</p>
-                    </div>
-                </div>
-            </div>
-        <footer>
-            <i class="redes-sociales fab fa-facebook fa-2x"></i>
-            <i class="redes-sociales fab fa-instagram fa-2x"></i>
-            <i class="redes-sociales fab fa-twitter fa-2x"></i>
-            <p>Terminos y condiciones - Politica de privacidad - Politica de Cookies</p>
-        </footer>
         </div>
     )
 }
