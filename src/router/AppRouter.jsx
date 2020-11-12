@@ -29,6 +29,9 @@ export const AppRouter = () => {
           <Route exact path="/barrio-privado" component={BarrioPrivPage}/>
           <Route exact path="/como-buscar-mi-hogar" component={ComoBuscarHogarPage}/>
           <Route exact path="/nosotros" component={NosotrosPage}/>
+          <Route exact path="/quienes-somos" component={NosotrosPage}/>
+          <Route exact path="/objetivo" component={NosotrosPage}/>
+          <Route exact path="/contacto" component={NosotrosPage}/>
           <Route exact path="/ingresar" component={IngresarPage}/>
           <Route exact path="/register" component={RegisterPage}/>
           <Redirect to="/" />

@@ -1,11 +1,12 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 export const RegisterPage = () => {
     return (
         <div>
+            <div className="container mt-4">
             <h1>Registrate</h1>
-            <div className="container mb-5">
-        <div className="row  justify-content-center">
+        <div className="row  justify-content-center mt-4">
           <form className="col-6 align-self-center">
           <div className="form-group ">
               <label>Nombre</label>
@@ -39,7 +40,10 @@ export const RegisterPage = () => {
                 placeholder="Contraseña"
               />
             </div>
-            <div>
+            <div className="m-2">
+              <Link to="/ingresar" >
+              ¿Ya tienes una cuenta? Ingresá
+              </Link>
             </div>
             <button type="submit" className="btn btn-primary">
               Registrarse

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: #414141;
+}
+
+*:focus {
+    outline: none;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    color: #414141;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00C2FF;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+.nav{
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.nav-derecha {
+    display: flex;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+#ingresar {
+    border: 2px #00C2FF solid;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+/*INGRESAR*/
+
+.container{
+    height: 85vh;
+    width: 60%;
+    text-align: center;
+}
+
+.form-control {
+    border: 2px #00C2FF solid;
+    padding: 15px;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #414144;
+    border: 2px #00C2FF solid;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00C2FF;
+    border: 2px #00C2FF solid;
+}
