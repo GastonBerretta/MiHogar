@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Buscados = () => {
     return (
-        <div>
+        <div className="mt-5">
              <div className="mas-buscados">
                 <h4>Mas buscados</h4>
                 <div className="buscados-row row">

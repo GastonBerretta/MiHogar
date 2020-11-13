@@ -135,7 +135,7 @@ h1 {
 .info-adicional {
     margin: 0 auto;
     text-align: center;
-    width: 85%;
+    /* width: 85%; */
     height: 220px;
 }
 
@@ -159,7 +159,7 @@ h1 {
 
 .buscados-row{
     border: 1px #c3c3c3 solid;
-    padding: 55px;
+    /* padding: 55px; */
     background-color: #e5e5e5;
 }
 
@@ -177,4 +177,16 @@ footer {
 
 .redes-sociales:hover {
     color: #00C2FF;
+}
+.row{
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+/* Nostros */
+.nosotros-sub-nav{
+    background-color: #E5E5E5;
+    
+    margin: 0 55px;
+    border-radius: 15px;
 }

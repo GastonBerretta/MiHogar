@@ -5,11 +5,11 @@ export const NosotrosPage = () => {
     return (
         <div>
             <h1>About us</h1>
-            <div className="">
-                <Link to="/quienes-somos" className="nav-link active">¿Quienes somos?</Link>
-                <Link to="/objetivo" className="nav-link active">Nuestro objetivo</Link>
-                <Link to="/contacto" className="nav-link active">Contacto</Link>
-            </div>
+           {  <div className="nosotros-sub-nav row justify-content-around">
+                <Link to="/quienes-somos" className="nav-link active col-3 text-center">¿Quienes somos?</Link>
+                <Link to="/objetivo" className="nav-link active col-3 text-center">Nuestro objetivo</Link>
+                <Link to="/contacto" className="nav-link active col-3 text-center">Contacto</Link>
+            </div> }
             <div className="row justify-content-center mt-4">
                 <div className="col-7">
                     <h2>¿Quienes somos?</h2>
@@ -32,12 +32,13 @@ export const NosotrosPage = () => {
                     Pariatur omnis repellat esse minus delectus ipsam ipsa, ut optio nesciunt doloremque aliquid, reiciendis, dolor consectetur qui animi earum commodi odio maxime dicta aspernatur. Dignissimos voluptate ad molestiae placeat a.
                     </p>
                 </div>
-            </div>
-            <div className="col-md-12 text-center mb-5 mt-5">
+                <div className="col-md-12 text-center mb-5 mt-5">
                 <button type="submit" className="btn btn-primary text-justify p-2">
                     Solicitar ayuda
                 </button>
             </div>
+            </div>
+         
         </div>
     )
 }
