@@ -109,7 +109,7 @@ h1 {
     padding: 20px;
 }
 
-.buscador-select button {
+.buscador-select .buton-buscador {
     height: 55px;
     border-radius: 0 20px 20px 0;
     color: #fff;
@@ -189,4 +189,7 @@ footer {
     
     margin: 0 55px;
     border-radius: 15px;
+}
+.busqueda-avanzada{
+    display: none;
 }
